@@ -7,9 +7,11 @@ import SoundMonitor from '../components/soundmonitor';
 export function Dashboard() {
   return (
     <>
+      <div>
       <Dashboardtop />
-      <br />
+      <div className='h-40'></div>
       <SoundMonitor />
+      </div>
     </>
   );
 }
